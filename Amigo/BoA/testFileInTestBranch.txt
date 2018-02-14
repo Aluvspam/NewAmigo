@@ -2,3 +2,4 @@
 
 Andrei R commit ! 
 am scris
+Am adaugat un text nou in testFile.. si am sters documentul Luana

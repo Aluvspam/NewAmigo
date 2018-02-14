@@ -2,4 +2,12 @@
 
 Andrei R commit ! 
 am scris
+test
+test
+test
+ai comis-o bine rau!
+zz
+zz
+zz
+am scris
 Am adaugat un text nou in testFile.. si am sters documentul Luana

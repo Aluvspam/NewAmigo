@@ -53,6 +53,7 @@
     <Content Include="colaborators.txt" />
     <Content Include="Luana.txt" />
     <Content Include="Corly.txt" />
+    <Content Include="testFileInTestBranch.txt" />
     <Content Include="LuanaMasterBranch.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

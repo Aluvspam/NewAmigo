@@ -53,6 +53,7 @@
     <Content Include="colaborators.txt" />
     <Content Include="Luana.txt" />
     <Content Include="Corly.txt" />
+    <Content Include="LuanaMasterBranch.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

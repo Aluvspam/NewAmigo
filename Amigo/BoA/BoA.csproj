@@ -51,7 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="colaborators.txt" />
-    <Content Include="Luana.txt" />
     <Content Include="Corly.txt" />
     <Content Include="testFileInTestBranch.txt" />
   </ItemGroup>

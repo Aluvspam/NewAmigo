@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,5 +12,16 @@ namespace WeellOfFate
     {
         public List<Engineer> Engineers;
         public List<Manager> Manager;
-    }
+
+		public void SaveToFile()
+		{
+			using (TextWriter tw = new StreamWriter("Engineers.txt"))
+				foreach (string s in IList.Engineers)
+					tw.WriteLine(s);
+		}
+	}
+
+	
+
+
 }

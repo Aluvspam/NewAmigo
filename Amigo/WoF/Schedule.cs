@@ -16,15 +16,7 @@ namespace WeellOfFate
         }
         public virtual void GetSchedule()//Schedule following business rules
         {
-          
-            
-            //next: Business Rules:
-
-           //next: Random Select Engineers 
-
-            //next: Export Engineers
-
-            //next: Shift 1/ Shift 2
+            //luam info din noi luam din team - > adaugam in Schedule
 
         }
     }

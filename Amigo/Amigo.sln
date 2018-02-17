@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoF", "WoF\WoF.csproj", "{3C956CFD-7D51-4314-A1AC-CFD7F5902E1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoA", "BoA\BoA.csproj", "{9CCE1683-FDD8-4596-B731-DDF01D39E9F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAU", "BoA\BAU.csproj", "{9CCE1683-FDD8-4596-B731-DDF01D39E9F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7BE40F-B4C6-4390-99FA-2A06CA815A11}
 	EndGlobalSection
 EndGlobal

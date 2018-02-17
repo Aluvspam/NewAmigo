@@ -16,7 +16,8 @@ namespace WeellOfFate
         }
         public static void InputData()
         {
-
+			
+	
         }
     }
 }

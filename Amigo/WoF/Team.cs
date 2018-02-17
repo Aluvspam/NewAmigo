@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace WeellOfFate
 {
-	public class Team
-	{
-		public List<Engineer> Engineers;
-		public List<Manager> Manager;
+    public class Team
+    {
+        public List<Engineer> Engineers;
+        public Manager Manager;
 
 		public Team()
 			{
 			Engineers = new List<Engineer>();
-			}
+    }
 
 		
 	}

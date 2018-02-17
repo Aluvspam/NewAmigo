@@ -14,9 +14,15 @@ namespace WeellOfFate
         {
 
         }
-        public virtual void GetSchedule()// LUCRAM CU ASTA 
+        public virtual void GetSchedule()//Schedule following business rules
         {
-            //luam info din noi luam din team - > adaugam in Schedule
+           //next: Business Rules:
+
+           //next: Random Select Engineers 
+
+            //next: Export Engineers
+
+            //next: Shift 1/ Shift 2
 
         }
     }

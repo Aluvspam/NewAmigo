@@ -9,10 +9,7 @@ namespace WeellOfFate
     public class Engineer: Employee
     {
         public Engineer(string name, int no, string role): base(name, no, role)
-        {
-            name = Name;
-            no = id;
-            role = Role;
+        { 
         }
     }
 }

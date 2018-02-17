@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeellOfFate
 {
-   public class Employee
+    public class Employee
     {
         public string Name;
         protected int id;
@@ -14,10 +14,10 @@ namespace WeellOfFate
 
         public Employee(string name, int no, string role)
         {
-            Name=name;
+            Name = name;
             id = no; ;
             Role = role;
         }
-        
+
     }
 }

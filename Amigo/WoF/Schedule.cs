@@ -21,7 +21,15 @@ namespace WeellOfFate
 
             foreach (var item in listE)
             {
-                if(listE.Count%2 == 0)
+                if (listE.Count % 2 == 0)
+                {
+
+                }
+                else if (Shift.)
+                {
+
+                }
+                else if (true)
                 {
 
                 }

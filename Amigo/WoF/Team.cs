@@ -9,6 +9,6 @@ namespace WeellOfFate
     public class Team
     {
         public List<Engineer> Engineers;
-        public List<Manager> Manager;
+        public Manager Manager;
     }
 }

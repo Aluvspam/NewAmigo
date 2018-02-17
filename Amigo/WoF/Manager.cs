@@ -11,9 +11,9 @@ namespace WeellOfFate
     {
         public Manager(string name, int no, string role) : base(name, no, role)
         {
-            name = Name;
-            no = id;
-            role = Role;
+            Name = name;
+            id = no;
+            Role = role;
         }
         public static void InputData()
         {

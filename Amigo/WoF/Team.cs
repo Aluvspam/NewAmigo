@@ -9,6 +9,26 @@ namespace WeellOfFate
     public class Team
     {
         public List<Engineer> Engineers;
-        public List<Manager> Manager;
+
+        public Manager Manager;
+        public Team ()
+	    {
+        var Engineer = new List(Engineer);
+            var Manager = new Manager();  
+	    }
+        public void ReadFromConsole()
+        {
+            bool flag = true;
+            while (!flag)
+	{
+	        Console.WriteLine("Cati inginerii sunt prezenti?");
+            int numar;
+            flag = int.TryParse(Console.ReadLine(), out numar); 
+	}
+     
+                
+        }
+         
     }
 }
+

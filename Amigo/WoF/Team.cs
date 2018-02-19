@@ -38,15 +38,12 @@ namespace WeellOfFate
         {
             bool flag = true;
             while (!flag)
-	{
-	        Console.WriteLine("Cati inginerii sunt prezenti?");
-            int numar;
-            flag = int.TryParse(Console.ReadLine(), out numar); 
-	}
-     
-                
+            {
+                Console.WriteLine("Cati inginerii sunt prezenti?");
+                int numar;
+                flag = int.TryParse(Console.ReadLine(), out numar);
+            }
         }
-         
     }
 }
 

@@ -19,7 +19,32 @@ namespace WeellOfFate
         }
         public virtual void GetSchedule()//Schedule following business rules
         {
-            //luam info din noi luam din team - > adaugam in Schedule
+            List<Engineer> listE = new List<Engineer>();
+            //next: Business Rules
+
+            foreach (var item in listE)
+            {
+                if (listE.Count % 2 == 0)
+                {
+
+                }
+                else if (Shift.)
+                {
+
+                }
+                else if (true)
+                {
+
+                }
+            }
+
+
+
+            //next: Random Select Engineers 
+
+            //next: Export Engineers
+
+            //next: Shift 1/ Shift 2
 
         }
     }

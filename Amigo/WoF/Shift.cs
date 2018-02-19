@@ -8,7 +8,7 @@ namespace WeellOfFate
 {
     public class Shift
     {
-        public DateTime StartTime;
+        public DateTime StartTime;// first shift 9:30 - 13:30 / second 13:30 - 16:30
         public int EmployeeId;
     }
 }

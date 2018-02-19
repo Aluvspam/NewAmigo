@@ -37,11 +37,17 @@ namespace WeellOfFate
         public void ReadFromConsole()
         {
             bool flag = true;
+            int numar = 0;
+            var role = "Engineer";
             while (!flag)
             {
                 Console.WriteLine("Cati inginerii sunt prezenti?");
-                int numar;
                 flag = int.TryParse(Console.ReadLine(), out numar);
+            }
+            for (int i = 0; i < numar; i++)
+            {
+                string nume = Console.ReadLine();
+                Engineers.Add(new Engineer(nume, i, role));
             }
         }
     }

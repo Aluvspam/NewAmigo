@@ -9,7 +9,10 @@ namespace WeellOfFate
     class Schedule
     {
         public List<Shift> Shifts;
-
+        public Schedule()
+        {
+            Shifts = new List<Shift>();
+        }
         static void BauShift()
         {
 

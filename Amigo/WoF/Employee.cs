@@ -14,9 +14,9 @@ namespace WeellOfFate
 
         public Employee(string name, int no, string role)
         {
-            name = Name;
-            no = id;
-            role = Role;
+            Name = name;
+            id = no;
+            Role = role;
         }
 
     }

@@ -17,25 +17,25 @@ namespace WeellOfFate
         {
 
         }
-        public virtual void GetSchedule()//Schedule following business rules
+        public virtual void GetSchedule(List<Engineer> engineers )//Schedule following business rules
         {
-            List<Engineer> listE = new List<Engineer>();
+           
             //next: Business Rules
 
-            foreach (var item in listE)
+            foreach (var item in engineers)
             {
-                if (listE.Count % 2 == 0)
+               if (item.id%2 == 0)//reglua: sa nu lucreze doua zile consecutive
+                {
+
+               }
+               else if (Shift.)
                 {
 
                 }
-                else if (Shift.)
-                {
+               else if (true)
+               {
 
-                }
-                else if (true)
-                {
-
-                }
+               }
             }
 
 

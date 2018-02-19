@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,19 +21,16 @@ namespace WeellOfFate
         {
             StreamReader sr = new StreamReader(fileName);
             string text = sr.ReadToEnd();
-            int[] names = new int[] { text.Split(",") };
-
-            id = 0;
+            string[] names = text.Split(',');
+            var id = 0;
             for (int i = 0; i < names.Length; i++)
             {
-                name = names[i];
-                role = "Engineer";
+                var name = names[i];
+                var role = "Engineer";
                 id++;
-                Engineers.Add(new Engineer(names, role, id));
+                Engineers.Add(new Engineer(name, id, role));
             }
-
             sr.Close();
         }
     }
-
 }

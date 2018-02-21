@@ -18,7 +18,15 @@ namespace WeellOfFate
             Engineers = new List<Engineer>();
         }
 
-        public void ReadFromFile(string fileName)
+		public void SaveToFile()
+		{
+			TextWriter tw = new StreamWriter("Engineers.txt");
+			foreach (string s in List<Engineer>.Engineers)
+				tw.WriteLine(s);
+		}
+
+
+		public void ReadFromFile(string fileName)
         {
             StreamReader sr = new StreamReader(fileName);
             string text = sr.ReadToEnd();

@@ -42,7 +42,7 @@ namespace WeellOfFate
         //next: Export Engineers
         //next: Shift 1/ Shift 2
         //Incercare Dana
-       /* public virtual void GetSchedule(List<Engineer> engineers)
+        public virtual void GetSchedule(List<Engineer> engineers)
         {
             foreach (var item in engineers)
             {
@@ -60,7 +60,7 @@ namespace WeellOfFate
                 }
                
                 Random random = new Random();
-                int randomID = random.Next();
+                int randomID = random.Next(50);
             }
         }
         
@@ -72,7 +72,7 @@ namespace WeellOfFate
                 result += "Shift: " + Shifts + Environment.NewLine;
             }
             return result;
-        } */
+        }
     }
 }
 

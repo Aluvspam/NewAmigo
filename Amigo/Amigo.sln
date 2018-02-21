@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoF", "WoF\WoF.csproj", "{3C956CFD-7D51-4314-A1AC-CFD7F5902E1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAU", "BoA\BAU.csproj", "{9CCE1683-FDD8-4596-B731-DDF01D39E9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoFTests", "WoFTests\WoFTests.csproj", "{B085F3EC-96CE-4A7D-8DA0-717DB1F13FF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9CCE1683-FDD8-4596-B731-DDF01D39E9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CCE1683-FDD8-4596-B731-DDF01D39E9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CCE1683-FDD8-4596-B731-DDF01D39E9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B085F3EC-96CE-4A7D-8DA0-717DB1F13FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B085F3EC-96CE-4A7D-8DA0-717DB1F13FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B085F3EC-96CE-4A7D-8DA0-717DB1F13FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B085F3EC-96CE-4A7D-8DA0-717DB1F13FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

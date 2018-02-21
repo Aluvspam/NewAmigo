@@ -18,15 +18,27 @@ namespace WeellOfFate
             Engineers = new List<Engineer>();
         }
 
-		public void SaveToFile()
-		{
-			TextWriter tw = new StreamWriter("Engineers.txt");
-			foreach (string s in List<Engineer>.Engineers)
-				tw.WriteLine(s);
-		}
+        public void SaveToFile()
+        {
+            TextWriter tw = new StreamWriter("Engineers.txt");
+            foreach (var s in Engineers)
+                tw.WriteLine(s.ToString());
+            tw.Close();
+        }
 
+        public void DeserializeFile()
+        {
+            var reader = new StreamReader("Engineers.txt");
+            string textFromFile = reader.ReadToEnd();
+            reader.Close();
+            var lines = textFromFile.Replace(Environment.NewLine, "|").Split('|');
+            foreach (var item in lines)
+            {
+                Engineers.Add(Newtonsoft.Json.JsonConvert.DeserializeObject<Engineer>(item));
+            }
+        }
 
-		public void ReadFromFile(string fileName)
+        public void ReadFromFile(string fileName)
         {
             StreamReader sr = new StreamReader(fileName);
             string text = sr.ReadToEnd();

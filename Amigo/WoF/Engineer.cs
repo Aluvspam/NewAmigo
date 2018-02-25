@@ -8,8 +8,11 @@ namespace WeellOfFate
 {
     public class Engineer : Employee
     {
+        public List<Shifts> Shift { get; set; }
         public Engineer(string name, int no, string role) : base(name, no, role)
         {
+
         }
+       
     }
 }

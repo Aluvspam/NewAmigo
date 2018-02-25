@@ -11,27 +11,34 @@ namespace WeellOfFate
         public List<Shifts> Shifts;
         public Schedule()
         {
-           Shifts = new List<Shifts>();
+            Shifts = new List<Shifts>();
         }
         static void BauShift()
         {
 
         }
-        public virtual void GetSchedule(List<Engineer> engineers )//Schedule following business rules
+        public virtual void GetSchedule(List<Engineer> engineers)//Schedule following business rules
         {
-
             //next: Random Select Engineers 
-            List<Engineer> RandomSelectedEngineers = new List<Engineer>();
+           
+            Random random = new Random(0);
+            var r1 = random.Next(engineers.Count);//imi selecteaza random dupa numarul de ingineri
+            Engineer en1 = new Engineer("Gita", 0, "Inginer");// setam un inginer initial cu id-ul 0
+            if (r1%2 !=0)
+            {
+                en1.id = r1;// daca valoarea este reala, schimbam id-ulinginerului cu val din r1
+            }
+            //next: Random Select Engineers 
 
-                 }
-             }
-         }
+            List<Engineer> RandomSelectedEngineers = new List<Engineer>();// lista cu ingineri random
+            RandomSelectedEngineers.Add(en1);//adauga in lista 
+            
+            //next: Export Engineers
+            //next: Shift 1/ Shift 2
+        }
 
-        //next: Random Select Engineers 
-        //next: Export Engineers
-        //next: Shift 1/ Shift 2
         //Incercare Dana
-        public virtual void GetSchedule(List<Engineer> engineers)
+        public virtual void GetSchedule(List<Engineer> engineers, int no = 0)// am mai adaugat un parametru in metoda Danei pentru a nu exista un conflict intre metoda de sus si asta 
         {
             foreach (var item in engineers)
             {
@@ -39,20 +46,20 @@ namespace WeellOfFate
                 {
                     Console.WriteLine("Complete one half day shift");
                 }
-                else
-                {
-                    Console.WriteLine("One half day shift completed yesterday");
-                }
                 else if (WeellOfFate.Shifts.id >= 10)
                 {
                     Console.WriteLine("Complete one whole day of support");
                 }
-               
+                else
+                {
+                    Console.WriteLine("One half day shift completed yesterday");
+                }
+
                 Random random = new Random();
                 int randomID = random.Next(50);
             }
         }
-        
+
         public override string ToString()
         {
             var result = "";

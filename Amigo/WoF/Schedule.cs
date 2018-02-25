@@ -19,28 +19,14 @@ namespace WeellOfFate
         }
         public virtual void GetSchedule(List<Engineer> engineers )//Schedule following business rules
         {
-           
-            //next: Business Rules
-
-            foreach (var item in engineers)
-            {
-               if (item.id%2 == 0)//reglua: sa nu lucreze doua zile consecutive
-                {
-
-               }
-               else if (Shift.)
-                {
-
-                }
-               else if (true)
-               {
-
-               }
-            }
-
-
 
             //next: Random Select Engineers 
+            List<Engineer> RandomSelectedEngineers = new List<Engineer>();
+
+             
+            
+
+            //next: Business Rules
 
             //next: Export Engineers
 

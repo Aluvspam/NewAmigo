@@ -49,29 +49,7 @@ namespace WeellOfFate
             throw new NotImplementedException();
         }
 
-        //Incercare Dana
-        public virtual void GetSchedule(List<Engineer> engineers, int no = 0)// am mai adaugat un parametru in metoda Danei pentru a nu exista un conflict intre metoda de sus si asta 
-        {
-            foreach (var item in engineers)
-            {
-                if (WeellOfFate.Shifts.id % 2 == 0)
-                {
-                    Console.WriteLine("Complete one half day shift");
-                }
-                else if (WeellOfFate.Shifts.id >= 10)
-                {
-                    Console.WriteLine("Complete one whole day of support");
-                }
-                else
-                {
-                    Console.WriteLine("One half day shift completed yesterday");
-                }
-
-                Random random = new Random();
-                int randomID = random.Next(50);
-            }
-        }
-
+       
         public override string ToString()
         {
             var result = "";
